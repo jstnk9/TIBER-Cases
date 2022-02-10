@@ -1,0 +1,48 @@
+{
+  "_id": "~3317760",
+  "createdBy": "joseliyo_jstnk@example.org",
+  "updatedBy": "joseliyo_jstnk@example.org",
+  "createdAt": 1644264710380,
+  "updatedAt": 1644272238863,
+  "_type": "caseTemplate",
+  "name": "Targeted Threat Intelligence (TTI) #1 - Context",
+  "displayName": "Targeted Threat Intelligence (TTI) #1 - Context",
+  "titlePrefix": "[TTI]",
+  "description": "| Phase | Step | Outcome |\n| ------------- |:-------------:| -----:|\n| Targeted Threat Intelligence | 1 of 5 | Contextualization of the information gathered in the GTL Report to the `Entity` |\n\n# Tasks\n\n- `Task #1 - Request for Information`\n- `Task #2 - Mapping contexto to threats`\n\n# Communication with the Entity\n\nDuring this activity of the Targeted Threat Intelligence phase, the goal is contextualize all the information gathered in the GTL Report. In case you didn't have time to create the GTL Report, you can use the sources collected previously to continue with this step.\n\nTo get  the best result during this phase, is important the communication with the `Entity`, since they have all the information about the information that we will ask them. Also, make sure that your team has a clear scope of the TIBER exercise.  That can minimize the efforts and work times in this phase.\n\nSome of the key points of this phase are the following:\n\n- Map adversary information with CF (Critical Function)\n- Ask for threat assessment made by the `Entity`\n- Ask for recent intrusions in the `Entity`\n\n# Outcome\n\nThe outcome of this case will be a high-level relation of the events and campaigns identified in the GTL report with the context of the `Entity`",
+  "severity": 2,
+  "tags": ["TTI", "TI", "TIBER"],
+  "flag": false,
+  "tlp": 2,
+  "pap": 2,
+  "tasks": [
+    {
+      "id": "~3354776",
+      "_id": "~3354776",
+      "createdBy": "joseliyo_jstnk@example.org",
+      "createdAt": 1644272238859,
+      "_type": "case_task",
+      "title": "Task #1 - Request for Information",
+      "group": "CTI Strategic Analyst",
+      "description": "# Dependencies\n\nThis task has dependency on GTL Report from `Generic Threat Landscape (GTL) case`. In case that you didn't it, you can use `public reports for financial threats`.\n\n# Goal\n\nYour goal is ask request to the `Entity` the next information:\n- **A business and technical overview of each critical function-supporting system in TIBER scope.** Critical functions can be mapped to **Process**, **Technology** or **people**. \n- **Current Threat assessment and/or threat register.** If the `Entity` has a repository or database with information about threat that they are concerned or investigating, that information will help the TTI process.\n- **Examples of recent attacks/intrusions**. If the `Entity` had recent attacks or intrusions, the information gathered of them will help the TTI process.\n\nIs important to know if the `Entity` operates in different countries, since this will increase the scope of threats that you are looking for.",
+      "status": "Waiting",
+      "flag": false,
+      "order": 0
+    },
+    {
+      "id": "~3358872",
+      "_id": "~3358872",
+      "createdBy": "joseliyo_jstnk@example.org",
+      "createdAt": 1644272238861,
+      "_type": "case_task",
+      "title": "Task #2 - Mapping context to threats",
+      "group": "CTI Operational Analyst",
+      "description": "# Dependencies\n\nThis task has dependency on `task #1 - Request for Information`\n\n# Goal\n\nYour goal here is after getting the information of `task #1`, is time to map it to the threats of the GTL Report. Some questions that you might answer could be the following:\n\n- What interesting adversaries mined in the GTL have had activity with some sort of previously located CF?\n- What CF are exposed to Internet?\n- Information about domains and IP addresses blocks\n- Information about procedures and techniques used by actors in past incidents\n- Purple team exercises results (in case they did)\n",
+      "status": "Waiting",
+      "flag": false,
+      "order": 1
+    }
+  ],
+  "status": "Ok",
+  "customFields": {},
+  "metrics": {}
+}
