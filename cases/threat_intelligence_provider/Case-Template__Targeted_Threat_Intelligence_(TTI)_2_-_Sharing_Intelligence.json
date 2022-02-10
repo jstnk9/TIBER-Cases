@@ -1,0 +1,35 @@
+{
+  "_id": "~3813480",
+  "createdBy": "joseliyo_jstnk@example.org",
+  "updatedBy": "joseliyo_jstnk@example.org",
+  "createdAt": 1644270326411,
+  "updatedAt": 1644273290989,
+  "_type": "caseTemplate",
+  "name": "Targeted Threat Intelligence (TTI) #2 - Sharing Intelligence",
+  "displayName": "Targeted Threat Intelligence (TTI) #2 - Sharing Intelligence",
+  "titlePrefix": "[TTI]",
+  "description": "| Phase | Step | Outcome |\n| ------------- |:-------------:| -----:|\n| Targeted Threat Intelligence | 2 of 5 | Understanding of the`Entity` through sharing intelligence process between the CTI team of the `Entity` and the CTI team of the TI Provider |\n\n# Tasks\n\n- `Task #1 - Sharing Intelligence`\n\n# Sharing Intelligence\n\nDuring this activity of the Targeted Threat Intelligence phase, the goal is to better understand the threats that the `Entity` is working on. For achieve this, is necessary that both CTI teams work togheter to share knowledge. If the `Entity` hasn't CTI team, the sharing will be with the internal cybersecurity team or external cybersecurity team.\n\nSharing can be done in different formats, either technology structured format or reports made by `Entity`. When the sharing is finished, the TI provider must correlate the information received with previously stored intelligence to identify possible correlations from previous exercises.\n\n# Outcome\n\nThe outcome of this case is generated intelligence by the TI provider about those threats that the `Entity` did any investigation in the past. This intelligence is needed by the case #3.",
+  "severity": 2,
+  "tags": ["TTI", "TI", "TIBER"],
+  "flag": false,
+  "tlp": 2,
+  "pap": 2,
+  "tasks": [
+    {
+      "id": "~6770776",
+      "_id": "~6770776",
+      "createdBy": "joseliyo_jstnk@example.org",
+      "createdAt": 1644273290986,
+      "_type": "case_task",
+      "title": "Task #1 - Sharing Intelligence",
+      "group": "CTI Tactical Analyst",
+      "description": "# Dependencies\n\nThis task has dependency on case `Targeted Threat Intelligence (TT) #1 - Context`, since the information gathered in that case will be used in this task. \n\n# Goal\n\nYour goal here is share knowledge and intelligence with the CTI Team or cybersecurity team of the `Entity`. It is highly recommended to share the information in two ways\n- Using structured formats\n  - STIX objects\n  - MISP events\n  - Atomic Tests\n  - OpenIOC objects\n  - etc..\n- Reports documents made by `Entity`\n\nThe intelligence gathered can be useful for the next cases, since you will correlate information about threats observed by the `Entity` and you.",
+      "status": "Waiting",
+      "flag": false,
+      "order": 0
+    }
+  ],
+  "status": "Ok",
+  "customFields": {},
+  "metrics": {}
+}

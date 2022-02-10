@@ -1,0 +1,35 @@
+{
+  "_id": "~3379312",
+  "createdBy": "joseliyo_jstnk@example.org",
+  "updatedBy": "joseliyo_jstnk@example.org",
+  "createdAt": 1644279557534,
+  "updatedAt": 1644285422267,
+  "_type": "caseTemplate",
+  "name": "Targeted Threat Intelligence (TTI) #4 - Flags",
+  "displayName": "Targeted Threat Intelligence (TTI) #4 - Flags",
+  "titlePrefix": "[TTI]",
+  "description": "| Phase | Step | Outcome |\n| ------------- |:-------------:| -----:|\n| Targeted Threat Intelligence | 4 of 5 | Set up flags for the red team in their operations based on the previous findings |\n\n# Tasks\n\n- `Task #1 - Flags`\n\n# Flags\n\nDuring this activity of the Targeted Threat Intelligence phase, the goal is set up flags for the RT based on the previous findings to try capture them. Those flags must be setted based on the following items:\n1. **Critical functions** of the `Entity`, since those CFs are important for the business logic.\n2. **Findings** from `case #1`, `case #2` and `case #3`. Think that you already have a landscape of the `Entity` from the `case #3`, use it for establish flags to capture.\n\n# Outcome\n\nThe outcome will be a list of flags that the RT must achieve during his exercise.",
+  "severity": 2,
+  "tags": ["TTI", "TI", "TIBER"],
+  "flag": false,
+  "tlp": 2,
+  "pap": 2,
+  "tasks": [
+    {
+      "id": "~3420272",
+      "_id": "~3420272",
+      "createdBy": "joseliyo_jstnk@example.org",
+      "createdAt": 1644285422265,
+      "_type": "case_task",
+      "title": "Task #1 - Flags",
+      "group": "CTI Tactical Analyst",
+      "description": "# Dependencies\n\nThis task has dependency on `case #3 - Analysis`\n\n# Goal\n\nYour goal here is to set flags for the RT to get during its exercise. Remember the keys of the case.\n\n1. **Critical functions** of the `Entity`, since those CFs are important for the business logic.\n2. **Findings** from `case #1`, `case #2` and `case #3`. Think that you already have a landscape of the `Entity` from the `case #3`, use it for establish flags to capture.\n\nBased on the above keys, create a list of flags. The following table can be used as a template for it.\n\n| ID | Flag | Expected result | Comments |\n| ------------- |:-------------:| :-----:|-----:|\n| 1 | Send a document with macros through email link | make the user open the document | The document will be .docx, .xlsm and .pptx |",
+      "status": "Waiting",
+      "flag": false,
+      "order": 0
+    }
+  ],
+  "status": "Ok",
+  "customFields": {},
+  "metrics": {}
+}
