@@ -5,7 +5,7 @@ TIBER-EU process is complex to implement in order to work in an agile way. It ta
 
 The cases generated for `The Hive` have the main objective of quickly implementing the tasks that the Threat Intelligence team has to perform. In this way, work agility is achieved.
 
-Full explanation about this project in my blog: 
+Full explanation about this project in my blog: https://jstnk9.github.io/jstnk9/blog/TIBER-EU-ES-Threat-Intelligence-Series-01
 
 # TIBER-EU
 How they define themselves is: TIBER-EU is the European framework for threat intelligence-based ethical red-teaming. It is the first EU-wide guide on how authorities, entities and threat intelligence and red-team providers should work together to test and improve the cyber resilience of entities by carrying out a controlled cyberattack.
