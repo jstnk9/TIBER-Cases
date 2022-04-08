@@ -10,10 +10,15 @@ Full explanation about this project in my blog: https://jstnk9.github.io/jstnk9/
 # TIBER-EU
 How they define themselves is: TIBER-EU is the European framework for threat intelligence-based ethical red-teaming. It is the first EU-wide guide on how authorities, entities and threat intelligence and red-team providers should work together to test and improve the cyber resilience of entities by carrying out a controlled cyberattack.
 
-# Process
+# Threat Intelligence Process
 To simplify the entire TIBER-EU document and the Threat Intelligence section a bit, I wanted to make a process explaining the most important points of the framework for those analysts who are going to work on it. Specifically, I have focused on the "Processes/Activities Threat Intelligence" section of the official TIBER-EU process.
 
-![Jstnk_TIBER](https://raw.githubusercontent.com/jstnk9/TIBER-Cases/main/img/TIBER-EU_Testing_Threat_Intelligence.jpg)
+![Jstnk_TIBER_TI](https://raw.githubusercontent.com/jstnk9/TIBER-Cases/main/img/TIBER-EU_Testing_Threat_Intelligence.jpg)
+
+# Red Team Process
+To simplify the entire TIBER-EU document and the Red Team section a bit, I wanted to make a process explaining the most important points of the framework for those analysts who are going to work on it. Specifically, I have focused on the "Processes/Activities Red Team Test" section of the official TIBER-EU process.
+
+![Jstnk_TIBER_RT](https://raw.githubusercontent.com/jstnk9/TIBER-Cases/main/img/TIBER-EU_Testing_Red_Team.jpg)
 
 # Feedback and contributions
 Feel free to open issues if you want collaborate or send any feedback.

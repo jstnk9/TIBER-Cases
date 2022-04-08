@@ -9,7 +9,7 @@ Here you can find the cases of the red team provider. There are 3 cases, which i
 <li>Task #2 - Meet with the threat intelligence team</li>
 <li>Task #3 - Make a risk plan</li><br></br>
 
-:mag_right: <a href="https://github.com/jstnk9/TIBER-Cases/blob/main/cases/red_team_provider/Case-Template__Red_Team_Testing_(RT)_1_Red_team_testing_plan.json" target="_blank"> JSON File </a>
+:mag_right: <a href="https://github.com/jstnk9/TIBER-Cases/blob/main/cases/red_team_provider/Case-Template__Red_Team_Testing_RT_1_Red_team_testing_plan.json" target="_blank"> JSON File </a>
 
 ## **Case name:** Red Team Testing (RT) #2 - Testing methodology and scenarios
 
@@ -23,7 +23,7 @@ Here you can find the cases of the red team provider. There are 3 cases, which i
 <li>Task #7 - C2 </li>
 <li>Task #8 - Actions on Objectives</li><br></br>
 
-:mag_right: <a href="https://github.com/jstnk9/TIBER-Cases/blob/main/cases/red_team_provider/Case-Template__Red_Team_Testing_(RT)_2_Testing_methodology_and_scenarios.json" target="_blank"> JSON File </a>
+:mag_right: <a href="https://github.com/jstnk9/TIBER-Cases/blob/main/cases/red_team_provider/Case-Template__Red_Team_Testing_RT_2_Testing_methodology_and_scenarios.json" target="_blank"> JSON File </a>
 
 ## **Case name:** Red Team Testing (RT) #3 - Execution of the test
 
@@ -32,4 +32,4 @@ Here you can find the cases of the red team provider. There are 3 cases, which i
 <li>Task #2 - During the execution</li>
 <li>Task #3 - After the execution</li><br></br>
 
-:mag_right: <a href="https://github.com/jstnk9/TIBER-Cases/blob/main/cases/red_team_provider/Case-Template__Red_Team_Testing_(RT)_3_Execution_of_the_test.json" target="_blank"> JSON File </a>
+:mag_right: <a href="https://github.com/jstnk9/TIBER-Cases/blob/main/cases/red_team_provider/Case-Template__Red_Team_Testing_RT_3_Execution_of_the_test.json" target="_blank"> JSON File </a>
