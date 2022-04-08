@@ -26,7 +26,7 @@ Feel free to open issues if you want collaborate or send any feedback.
 # ToDo
 - [x] Threat Intelligence Provider cases
 - [ ] Blue Team cases
-- [ ] Red Team Provider cases
+- [x] Red Team Provider cases
 - [ ] New blog series
 
 # Contact
