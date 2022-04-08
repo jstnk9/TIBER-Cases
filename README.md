@@ -18,7 +18,7 @@ To simplify the entire TIBER-EU document and the Threat Intelligence section a b
 # Red Team Process
 To simplify the entire TIBER-EU document and the Red Team section a bit, I wanted to make a process explaining the most important points of the framework for those analysts who are going to work on it. Specifically, I have focused on the "Processes/Activities Red Team Test" section of the official TIBER-EU process.
 
-![Jstnk_TIBER_RT](https://raw.githubusercontent.com/jstnk9/TIBER-Cases/main/img/TIBER-EU_Testing_Red_Team.jpg)
+![Jstnk_TIBER_RT](https://raw.githubusercontent.com/jstnk9/TIBER-Cases/main/img/TIBER-EU_Testing_Red_Team.png)
 
 # Feedback and contributions
 Feel free to open issues if you want collaborate or send any feedback.
