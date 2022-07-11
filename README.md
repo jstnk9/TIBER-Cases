@@ -24,14 +24,19 @@ To simplify the entire TIBER-EU document and the Red Team section a bit, I wante
 
 blog: https://jstnk9.github.io/jstnk9/blog/TIBER-EU-ES-Red-Team-Series-01/
 
+# Blue Team Process
+To simplify the entire TIBER-EU document and the blue team section a bit, I wanted to make a process explaining the most important points of the framework for those analysts who are going to work on it. Specifically, I have focused on the "Processes/Activities Closure Phase" section of the official TIBER-EU process.
+
+![Jstnk_TIBER_BT](https://raw.githubusercontent.com/jstnk9/TIBER-Cases/main/img/TIBER-EU_Blue_Team.png)
+
 # Feedback and contributions
 Feel free to open issues if you want collaborate or send any feedback.
 
 # ToDo
 - [x] Threat Intelligence Provider cases
-- [ ] Blue Team cases
+- [x] Blue Team cases
 - [x] Red Team Provider cases
-- [ ] New blog series
+- [x] New blog series
 
 # Contact
 [@Joseliyo_Jstnk](https://twitter.com/Joseliyo_Jstnk)
