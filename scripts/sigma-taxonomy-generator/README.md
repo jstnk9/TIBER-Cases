@@ -29,3 +29,6 @@ python sigma-taxonomy-generator.py -p "/opt/sigmarules/sigma/rules/windows/proce
 ```
 Creates the file machinetag.json with all the sigma rules only under `/opt/sigmarules/sigma/rules/windows/process_creation` path **and not** subpaths.
 
+## Taxonomy imported in MISP
+
+![taxonomy-sigma](https://raw.githubusercontent.com/jstnk9/TIBER-Cases/main/img/sigma-taxonomy.png)
